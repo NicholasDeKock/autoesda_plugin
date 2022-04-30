@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=autoesda Report Generator
+qgisMinimumVersion=3.0
+description=This plugin automates the exploratory spatial data analysis (ESDA) process by summarizing numerous statistics in an HTML report.
+version=0.1
+author=Nicholas De Kock
+email=nicholas.dekock@tuks.co.za
+
+about=This plugin automates the exploratory spatial data analysis (ESDA) process by summarizing numerous statistics in an HTML report.
+
+tracker=https://github.com/NicholasDeKock/autoesda_plugin/issues
+repository=https://github.com/NicholasDeKock/autoesda_plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, calculator, export, html, processing, statistics, esda
+
+homepage=https://github.com/NicholasDeKock/autoesda_plugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
